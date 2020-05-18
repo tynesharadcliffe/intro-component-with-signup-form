@@ -17,7 +17,7 @@ function myFunction() {
   document.getElementById("p-error").innerHTML = d;
 
   ['fname', 'lname', 'email', 'password'].forEach(function(id) {
-    document.getElementById(id).style.background = "url('images/icon-error.svg') no-repeat 232px";
+    document.getElementById(id).style.background = "url('icon-error.svg') no-repeat 232px";
     document.getElementById(id).style.border = "2px solid hsl(0, 100%, 74%)";
     document.getElementById(id).placeholder = "";
     document.getElementById(id).style.width = "230px";
@@ -34,10 +34,10 @@ function myFunction() {
       document.getElementById("email").style.margin = "0";
       document.getElementById("password").style.margin = "0";
       document.getElementById("form").style.height = "465px";
-      document.getElementById("fname").style.background = "url('images/icon-error.svg') no-repeat 470px";
-      document.getElementById("lname").style.background = "url('images/icon-error.svg') no-repeat 470px";
-      document.getElementById("email").style.background = "url('images/icon-error.svg') no-repeat 470px";
-      document.getElementById("password").style.background = "url('images/icon-error.svg') no-repeat 470px";
+      document.getElementById("fname").style.background = "url('icon-error.svg') no-repeat 470px";
+      document.getElementById("lname").style.background = "url('icon-error.svg') no-repeat 470px";
+      document.getElementById("email").style.background = "url('icon-error.svg') no-repeat 470px";
+      document.getElementById("password").style.background = "url('icon-error.svg') no-repeat 470px";
     }
   }
   var x = window.matchMedia("(min-width:760px)");
